@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form class="container">
+        <h1>Survey Form</h1>
+        <div>
+        <label><h4>Name</h4></label>
+        <input class="inputtag" placeholder="First Name" required>
+        <input  class="inputtag" placeholder="Last Name" required>
+        </div>
+        <div>
+            <label><h4>Email</h4></label>
+            <input class="inputtag" type="email" placeholder="Enter Your Email" required>
+         </div>
+            <div>
+                <label for="star-rating"><h4>Your Experience</h4></label>
+                <div class="star-rating">
+                    <input type="radio" id="5-stars" name="rating" value="5" />
+                    <label for="5-stars" class="star">&#9733;</label>
+                    <input type="radio" id="4-stars" name="rating" value="4" />
+                    <label for="4-stars" class="star">&#9733;</label>
+                    <input type="radio" id="3-stars" name="rating" value="3" />
+                    <label for="3-stars" class="star">&#9733;</label>
+                    <input type="radio" id="2-stars" name="rating" value="2" />
+                    <label for="2-stars" class="star">&#9733;</label>
+                    <input type="radio" id="1-star" name="rating" value="1" />
+                    <label for="1-star" class="star">&#9733;</label>
+                </div>
+                <p>Overall how would you rate your Experience with Us?</p>
+            </div>
+
+
+            <div>
+                <label><h4>How Satisfied are you with?</h4></label>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Very Unsatisfied</th>
+                <th>Unsatisfied</th>
+                <th>Neutral</th>
+                <th>Satisfied</th>
+                <th>Very Satisfied</th>
+            </tr>
+            <tr>
+                <td>Purchase</td>
+                <td><input name="Purchase" type="radio"</td>
+                <td><input name="Purchase" type="radio"</td>
+                <td><input name="Purchase" type="radio"</td>
+                <td><input name="Purchase" type="radio"</td>
+                <td><input name="Purchase" type="radio"</td>
+                </tr>
+
+                <tr>
+
+                <td>Service</td>
+                <td><input name="Service" type="radio"</td>
+                <td><input name="Service" type="radio"</td>
+                <td><input name="Service" type="radio"</td>
+                <td><input name="Service" type="radio"</td>
+                <td><input name="Service" type="radio"</td>
+
+                </tr>
+
+                <tr>
+
+                <td>Company Overall</td>
+                <td><input name="Overall" type="radio"</td>
+                <td><input name="Overall" type="radio"</td>
+                <td><input name="Overall" type="radio"</td>
+                <td><input name="Overall" type="radio"</td>
+                <td><input name="Overall" type="radio"</td>
+
+
+             </tr>
+                </table>
+            </div>
+
+            <div>
+                <label><h4>Likely are you to?</h4></label>
+
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>Very Unlikely</th>
+                        <th>Unlikely</th>
+                        <th>Neutral</th>
+                        <th>Likely</th>
+                        <th>Very Likely</th>
+                    </tr>
+                    <tr>
+                        <td>Buy from us again</td>
+                        <td><input name="buy" type="radio"</td>
+                        <td><input name="buy" type="radio"</td>
+                        <td><input name="buy" type="radio"</td>
+                        <td><input name="buy" type="radio"</td>
+                        <td><input name="buy" type="radio"</td>
+                        </tr>
+        
+                        <tr>
+        
+                        <td>Recommand our products to Others</td>
+                        <td><input name="products" type="radio"</td>
+                        <td><input name="products" type="radio"</td>
+                        <td><input name="products" type="radio"</td>
+                        <td><input name="products" type="radio"</td>
+                        <td><input name="products" type="radio"</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                        <td>Recommand our company to Others</td>
+                        <td><input name="company" type="radio"</td>
+                        <td><input name="company" type="radio"</td>
+                        <td><input name="company" type="radio"</td>
+                        <td><input name="company" type="radio"</td>
+                        <td><input name="company" type="radio"</td>
+        
+        
+                    </tr>
+        
+                </table>
+            </div>
+
+            <div>
+                <label><h4>Additional comments or suggestions</h4></label>
+            <br>
+            <input type="text" id="textarea" placeholder="Type your Comments">
+            </div>
+            <div class="submit_button">
+                <button type="submit" class="submission" style="width: auto;">Submit</button>
+            </div>
+
+    </div>
+
+</form>
+    
+</body>
+</html>
